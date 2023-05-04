@@ -6,6 +6,9 @@ namespace Socarrat\Events;
 abstract class Event {
 	/**
 	 * An array of event listeners to call when the event is dispatched.
+	 *
+	 * It's important that you override this in your own implementation!
+	 *
 	 * @var callable[]
 	 */
 	static protected array $listeners = array();
@@ -45,7 +48,7 @@ abstract class Event {
 	}
 
 	/**
-	 * Dispatch the event.
+	 * Dispatches the event.
 	 *
 	 * This executes all registered callbacks in order, passing optional callback data to them.
 	 *
