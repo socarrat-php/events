@@ -1,0 +1,17 @@
+{
+	"name": "socarrat/events",
+	"description": "The Socarrat event library contains the base for your event dispatchers.",
+	"type": "library",
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Socarrat\\Events\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Romein van Buren",
+			"email": "romein@vburen.nl"
+		}
+	]
+}
