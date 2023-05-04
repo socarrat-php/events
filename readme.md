@@ -23,7 +23,6 @@ In order to create an event, you need to extend the abstract `Event` class. It's
 For example:
 
 ```php
-<?php
 use Socarrat\Events\Event;
 
 class YourCustomEvent extends Event {
